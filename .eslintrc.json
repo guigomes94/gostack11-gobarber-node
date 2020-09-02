@@ -9,9 +9,10 @@
     "prettier"
   ],
   "extends": [
-    "airbnb-typescript",
+    "airbnb-base",
     "prettier/@typescript-eslint",
-    "plugin:@typescript-eslint/recommended"
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended"
   ],
   "globals": {
     "Atomics": "readonly",
